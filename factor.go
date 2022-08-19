@@ -46,7 +46,6 @@ func factor(n int) []int {
 func (c *CLI) Run(args []string) int {
 	if len(args) < 2 {
 		fmt.Printf("%s %s (factor: %s/%s)\n", name, version, revision, runtime.Version())
-		fmt.Println("$ factor 12")
 		return ExitCodeParseFlagError
 	}
 
