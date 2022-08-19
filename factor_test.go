@@ -1,4 +1,4 @@
-package factor
+package main
 
 import (
 	"reflect"
